@@ -1,5 +1,5 @@
 let nomeHeroi = "StarFelip"
-let NivelXP = 60010
+let NivelXP = Math.floor(Math.random(99999) *10000)
 let msgNivel = `O herói de Nome ${nomeHeroi}, está no nivel: ${NivelXP}, e sua classificação é: `
 
 while( NivelXP <=1000){
